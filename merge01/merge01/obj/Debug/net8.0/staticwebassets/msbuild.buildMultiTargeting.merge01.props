@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\merge01.props" />
+</Project>
