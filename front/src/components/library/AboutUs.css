@@ -1,0 +1,57 @@
+/* About Us Container */
+.aboutus-container {
+  background-color: #f4f4f9; /* Light grey background color */
+  color: #333; /* Dark text color for contrast */
+  padding: 2rem;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+/* About Us Header Alert */
+.aboutus-header {
+  background-color: #0a9396; /* Light teal background for alert */
+  color: #ffffff; /* White text color for the alert */
+  border: 1px solid #0a9396; /* Light teal border */
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* About Us Header Text */
+.aboutus-header h2 {
+  margin: 0;
+  color: #ffffff; /* White text color for header */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+/* About Us Card */
+.aboutus-card {
+  background-color: #ffffff; /* White background for the card */
+  border: 1px solid #0a9396; /* Light teal border */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+  margin-bottom: 2rem; /* Spacing between cards */
+}
+
+/* Card Title and Subtitle */
+.card-title {
+  color: #005f73; /* Dark teal color for titles */
+}
+
+.card-subtitle {
+  color: #0a9396; /* Light teal color for subtitles */
+}
+
+/* Card Link Icons */
+.aboutus-icon {
+  font-size: 1.5rem; /* Icon size */
+  color: #0a9396; /* Light teal color for icons */
+  margin-right: 0.5rem; /* Spacing between icons */
+}
+
+.aboutus-icon:hover {
+  color: #005f73; /* Darker teal on hover */
+}

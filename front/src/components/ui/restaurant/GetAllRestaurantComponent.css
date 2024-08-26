@@ -1,0 +1,111 @@
+/* GetAllRestaurantComponent.css */
+
+/* Container styling for the component */
+.customer-container {
+    background: linear-gradient(135deg, #005f73, #0a9396); /* Gradient from dark teal to light teal */
+    color: #ffffff; /* White text color for contrast */
+    height: 100vh; /* Full viewport height */
+    padding: 2rem;
+  }
+  
+  /* Adjust spacing between columns */
+  .row.g-4 {
+    gap: 1.5rem; /* Increased gap between columns */
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    background-color: #ffffff; /* White background for sidebar */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+  }
+  
+  /* Content area styling */
+  .content {
+    background-color: #ffffff; /* White background for content area */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+  }
+  
+  /* Button styling */
+  .link-button {
+    background-color: #005f73; /* Dark teal for link buttons */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width for buttons */
+  }
+  
+  .link-button:hover {
+    background-color: #003f5c; /* Even darker teal on hover */
+  }
+  
+  /* Table styling */
+  .customer-table {
+    background-color: #ffffff; /* White background for table */
+    color: #005f73; /* Dark teal text color for contrast */
+    margin-top: 1rem;
+    width: 100%; /* Full width of container */
+    table-layout: auto; /* Allow column widths to adjust automatically */
+  }
+  
+  .customer-table th, .customer-table td {
+    padding: 1rem; /* Increased padding for better readability */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .customer-table thead {
+    background-color: #0a9396; /* Light teal background for table header */
+    color: #ffffff; /* White text color for table header */
+  }
+  
+  .customer-table tbody tr:nth-child(even) {
+    background-color: #ebf5f7; /* Very light teal background for even rows */
+  }
+  
+  .customer-table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+  }
+  
+  /* Menu column styling */
+  .menu-column {
+    min-width: 200px; /* Make the menu column wider */
+  }
+  
+  /* Edit and delete button styling */
+  .edit-button {
+    background-color: #0a9396; /* Light teal for edit button */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .edit-button:hover {
+    background-color: #005f73; /* Darker teal on hover */
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red for delete button */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
+  /* Restaurant image styling */
+  .restaurant-image {
+    max-width: 150px; /* Limit image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  

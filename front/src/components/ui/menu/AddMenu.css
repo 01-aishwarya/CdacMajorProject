@@ -1,0 +1,70 @@
+/* Container styling */
+.add-menu-container {
+  background: linear-gradient(135deg, #005f73, #0a9396); /* Gradient from dark teal to light teal */
+  color: #ffffff; /* White text color for contrast */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form container styling */
+.form-container {
+  background-color: #ffffff; /* White background for the form container */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+  width: 100%;
+  max-width: 900px; /* Limit the width of the form container */
+}
+
+/* Alert styling */
+.alert {
+  background-color: #0a9396; /* Dark teal background for alert */
+  color: #ffffff; /* White text color */
+}
+
+/* Button styling */
+.submit-button {
+  background-color: #0a9396; /* Light teal for the submit button */
+  border: none;
+  color: #ffffff; /* White text color */
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width for the button */
+}
+
+.submit-button:hover {
+  background-color: #005f73; /* Darker teal on hover */
+}
+
+/* Link button styling */
+.link-button {
+  background-color: #005f73; /* Dark teal for link buttons */
+  border: none;
+  color: #ffffff; /* White text color */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  transition: background-color 0.3s ease;
+  width: 48%; /* Adjust width for proper spacing */
+}
+
+.link-button:hover {
+  background-color: #003f5c; /* Even darker teal on hover */
+}
+
+/* Toast styling */
+.toast {
+  border-radius: 5px;
+}
+
+.toast-header {
+  background-color: #0a9396; /* Dark teal for toast header */
+  color: #ffffff; /* White text color */
+}
+
+.toast-body {
+  color: #ffffff; /* White text color */
+}

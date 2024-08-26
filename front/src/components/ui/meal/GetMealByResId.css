@@ -1,0 +1,80 @@
+/* src/components/GetMealByResId.css */
+
+/* Container styling for the GetMealByResId page */
+.meal-by-res-container {
+    background: linear-gradient(135deg, #005f73, #0a9396); /* Gradient from dark teal to light teal */
+    color: #ffffff; /* White text color for contrast */
+    height: 100vh; /* Full viewport height */
+    padding: 2rem;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #ffffff; /* White background for sidebar */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+    margin-right: 1rem; /* Space between sidebar and content */
+    margin-top: 20px; /* Margin from top */
+}
+
+/* Content area styling */
+.content {
+    background-color: #ffffff; /* White background for content area */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+    margin-top: 20px; /* Margin from top */
+}
+
+/* Table styling */
+.table-container {
+    margin-top: 1rem;
+}
+
+.table-container table {
+    background-color: #f0f8ff; /* Alice Blue background for the table */
+}
+
+/* Button styling */
+.b-button {
+    background-color: #0a9396; /* Light teal for button */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.b-button:hover {
+    background-color: #005f73; /* Darker teal on hover */
+}
+
+.b-button-danger {
+    background-color: #d9534f; /* Bootstrap red for delete button */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.b-button-danger:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+.b-button-warning {
+    background-color: #f0ad4e; /* Bootstrap warning color */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.b-button-warning:hover {
+    background-color: #ec971f; /* Darker warning color on hover */
+}
+
+/* Custom image styling */
+.custom-carousel-image {
+    border-radius: 10px;
+    margin-top: 20px;
+}

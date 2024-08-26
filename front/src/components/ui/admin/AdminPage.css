@@ -1,0 +1,39 @@
+/* src/components/AdminPage.css */
+
+/* Container styling for the AdminPage */
+.admin-page-container {
+    background: linear-gradient(135deg, #005f73, #0a9396); /* Gradient from dark teal to light teal */
+    color: #ffffff; /* White text color for contrast */
+    height: 100vh; /* Full viewport height */
+    padding: 2rem;
+  }
+  
+  /* Sidebar styling */
+  .admin-sidebar {
+    background-color: #ffffff; /* White background for sidebar */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+    margin-right: 1rem; /* Space between sidebar and content */
+  }
+  
+  /* Content area styling */
+  .admin-content {
+    background-color: #ffffff; /* White background for content area */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+  }
+
+  .b-button {
+    background-color: #0a9396; /* Light teal for edit button */
+    border: none;
+    color: #ffffff; /* White text color */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .b-button:hover {
+    background-color: #005f73; /* Darker teal on hover */
+  }
+  

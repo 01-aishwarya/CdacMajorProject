@@ -1,0 +1,84 @@
+/* Container styling */
+.home-container {
+  background: linear-gradient(135deg, #005f73, #0a9396); /* Gradient from dark teal to light teal */
+  color: #ffffff; /* White text color for contrast */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Centering content vertically and horizontally */
+.min-vh-100 {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for form container */
+.form-container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 1.5rem;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  max-width: 600px; /* Medium width for the form */
+  width: 100%; /* Full width within max-width */
+}
+
+/* Form label and input styling */
+.form-label {
+  color: #005f73; /* Dark teal color for labels */
+  font-weight: bold; /* Bold labels for readability */
+}
+
+.form-control {
+  border-radius: 4px; /* Rounded corners for inputs */
+  border: 1px solid #0a9396; /* Light teal border */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Inner shadow */
+  margin-bottom: 1rem; /* Space between inputs */
+}
+
+.form-control:focus {
+  border-color: #005f73; /* Dark teal focus border */
+  box-shadow: 0 0 0 0.2rem rgba(0, 176, 155, 0.25); /* Light teal focus shadow */
+}
+
+/* Button styling */
+.submit-button {
+  background-color: #0a9396; /* Light teal for the submit button */
+  border: none;
+  color: #ffffff; /* White text color */
+  padding: 0.75rem 1.5rem; /* Medium-sized padding */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Full width */
+  margin-top: 1rem; /* Space above the button */
+}
+
+.submit-button:hover {
+  background-color: #005f73; /* Darker teal on hover */
+}
+
+/* Link button styling */
+.link-button {
+  background-color: #005f73; /* Dark teal for link buttons */
+  border: none;
+  color: #ffffff; /* White text color */
+  padding: 0.5rem 1rem; /* Medium-sized padding */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 0.5rem; /* Space above the button */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  width: 100%; /* Full width */
+}
+
+.link-button:hover {
+  background-color: #003f5c; /* Even darker teal on hover */
+}
+
+/* Alert and Toast styling */
+.alert {
+  margin-bottom: 2rem; /* Space below alert */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.toast-body {
+  color: #ffffff; /* White text color for toast messages */
+}

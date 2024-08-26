@@ -1,0 +1,50 @@
+/* Additional CSS for modal */
+.modal-content {
+  background-color: #ffffff; /* White background for modal */
+  color: #005f73; /* Dark teal text color */
+}
+
+.modal-header {
+  border-bottom: 1px solid #0a9396; /* Light teal border for header */
+}
+
+.modal-footer {
+  border-top: 1px solid #0a9396; /* Light teal border for footer */
+}
+
+/* Ensure card and button styles align with previous styles */
+.meal-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Light shadow for a subtle 3D effect */
+}
+
+.meal-image {
+  height: 150px; /* Smaller height for images */
+  object-fit: cover; /* Cover the image area */
+}
+
+.edit-button {
+  background-color: #0a9396; /* Light teal for edit button */
+  border: none;
+  color: #ffffff; /* White text color */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.edit-button:hover {
+  background-color: #005f73; /* Darker teal on hover */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red for delete button */
+  border: none;
+  color: #ffffff; /* White text color */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
